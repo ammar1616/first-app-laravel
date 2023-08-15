@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 * text=auto
-=======
-* text=auto eol=lf
->>>>>>> o/main
 
 *.blade.php diff=html
 *.css diff=css

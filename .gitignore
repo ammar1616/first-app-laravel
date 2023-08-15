@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-/.phpunit.cache
->>>>>>> o/main
 /node_modules
 /public/build
 /public/hot

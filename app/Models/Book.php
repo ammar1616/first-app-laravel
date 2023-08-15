@@ -4,27 +4,18 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
-=======
->>>>>>> o/main
 
 
 class Book extends Model
 {
-<<<<<<< HEAD
     use HasFactory , SoftDeletes;
-=======
-    use HasFactory;
-
->>>>>>> o/main
     protected $fillable = [
         "title",
         "price",
         "description",
-<<<<<<< HEAD
         "pic",
         "cat_id"
     ];
@@ -48,8 +39,3 @@ class Book extends Model
         return $fileName;
     }
 }
-=======
-        "pic"
-    ];
-}
->>>>>>> o/main

@@ -1,10 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Facade;
-<<<<<<< HEAD
-=======
-use Illuminate\Support\ServiceProvider;
->>>>>>> o/main
 
 return [
 
@@ -158,7 +154,6 @@ return [
     |
     */
 
-<<<<<<< HEAD
     'providers' => [
 
         /*
@@ -187,9 +182,6 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
-=======
-    'providers' => ServiceProvider::defaultProviders()->merge([
->>>>>>> o/main
         /*
          * Package Service Providers...
          */
@@ -202,12 +194,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-<<<<<<< HEAD
 
     ],
-=======
-    ])->toArray(),
->>>>>>> o/main
 
     /*
     |--------------------------------------------------------------------------
@@ -221,11 +209,7 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
-<<<<<<< HEAD
         // 'ExampleClass' => App\Example\ExampleClass::class,
-=======
-        // 'Example' => App\Facades\Example::class,
->>>>>>> o/main
     ])->toArray(),
 
 ];

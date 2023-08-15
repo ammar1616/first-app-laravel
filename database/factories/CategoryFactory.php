@@ -2,10 +2,6 @@
 
 namespace Database\Factories;
 
-<<<<<<< HEAD
-=======
-use App\Models\Category;
->>>>>>> o/main
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -18,10 +14,6 @@ class CategoryFactory extends Factory
      *
      * @return array<string, mixed>
      */
-<<<<<<< HEAD
-=======
-    protected $model = Category::class;
->>>>>>> o/main
     public function definition()
     {
         return [
