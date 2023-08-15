@@ -1,9 +1,12 @@
 <?php
 
+<<<<<<< HEAD
 use App\Http\Controllers\BookController;
 use App\Models\Book;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+=======
+>>>>>>> o/main
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
+<<<<<<< HEAD
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
@@ -37,3 +41,26 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+=======
+| routes are loaded by the RouteServiceProvider and all of them will
+| be assigned to the "web" middleware group. Make something great!
+|
+*/
+
+Route::get('/', function () {
+
+    $books = [
+            ['title' => 'Book 1', 'price' => 10.99],
+            ['title' => 'Book 2', 'price' => 12.99],
+            // Add more books here as needed
+        ];
+
+    return view('dashboard',['books' => $books]);
+});
+
+
+Route::get('/addbook', function () {
+    $books = "add book";
+    return view('addbook', ['books' => $books]);
+})->name('addbook');
+>>>>>>> o/main

@@ -9,10 +9,15 @@ class BroadcastServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
+<<<<<<< HEAD
      *
      * @return void
      */
     public function boot()
+=======
+     */
+    public function boot(): void
+>>>>>>> o/main
     {
         Broadcast::routes();
 
